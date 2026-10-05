@@ -62,6 +62,7 @@ export default function LoginPage() {
                             <p id="email-errors" role="alert" className="text-sm text-destructive">
                                 {field.state.meta.errors.map((error) => error?.message).join(' ')}
                             </p>
+
                         </div>}
                     </form.Field>
                     <form.Field name="password">
